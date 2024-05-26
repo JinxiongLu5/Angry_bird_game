@@ -5,10 +5,7 @@ The player hurls birds or similar objects towards a fortress to destroy enemy ta
 The game has very simple rules, but as in any well-crafted game, the player’s points should correlate with their throwing skills. This project subject does not require you to make a clone of an existing game, but to implement a one with the same general idea.
 
 # Demo
-<video width="320" height="240" controls>
-  <source src="media/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Sample GIF](media/demo.gif)
 
 
 # Group
