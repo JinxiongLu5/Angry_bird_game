@@ -1,0 +1,44 @@
+{
+  "birds": [
+    { "type": "normal", "size": { "width": 0.02, "height": 0.02 }},
+    { "type": "speed", "size": { "width": 0.02, "height": 0.02 }},
+    { "type": "explosive", "size": { "width": 0.02, "height": 0.02 }},
+    { "type": "vertical", "size": { "width": 0.02, "height": 0.02 }},
+    { "type": "bigger", "size": { "width": 0.02, "height": 0.02 }}
+
+  ],
+  "pigs": [
+    { "position": { "x": 0.84, "y": 0.76 }, "size": { "width": 0.025, "height": 0.025 }},
+    { "position": { "x": 0.99, "y": 0.77 }, "size": { "width": 0.02, "height": 0.02 }}
+  ],
+
+  "woods": [
+    { "position": { "x": 0.8, "y": 0.8 }, "size": { "width": 0.03, "height": 0.015 }},
+    { "position": { "x": 0.86, "y": 0.8 }, "size": { "width": 0.03, "height": 0.015 }},
+    { "position": { "x": 0.78, "y": 0.75 }, "size": { "width": 0.005, "height": 0.035 }},
+    { "position": { "x": 0.88, "y": 0.75 }, "size": { "width": 0.005, "height": 0.035 }},
+    { "position": { "x": 0.83, "y": 0.71 }, "size": { "width": 0.06, "height": 0.005 }},
+    { "position": { "x": 0.78, "y": 0.67 }, "size": { "width": 0.007, "height": 0.035 }},
+    { "position": { "x": 0.88, "y": 0.67 }, "size": { "width": 0.007, "height": 0.035 }},
+    { "position": { "x": 0.83, "y": 0.63 }, "size": { "width": 0.06, "height": 0.005 }},
+    { "position": { "x": 0.95, "y": 0.8 }, "size": { "width": 0.03, "height": 0.015 }},
+    { "position": { "x": 1.01, "y": 0.8 }, "size": { "width": 0.03, "height": 0.015 }},
+    { "position": { "x": 0.93, "y": 0.75 }, "size": { "width": 0.005, "height": 0.035 }},
+    { "position": { "x": 1.03, "y": 0.75 }, "size": { "width": 0.005, "height": 0.035 }},
+    { "position": { "x": 0.98, "y": 0.71 }, "size": { "width": 0.06, "height": 0.005 }},
+    { "position": { "x": 0.93, "y": 0.67 }, "size": { "width": 0.007, "height": 0.035 }},
+    { "position": { "x": 1.03, "y": 0.67 }, "size": { "width": 0.007, "height": 0.035 }},
+    { "position": { "x": 0.98, "y": 0.63 }, "size": { "width": 0.06, "height": 0.005 }}
+  ],
+
+  "stones": [
+    { "position": { "x": 0.83, "y": 0.61 }, "size": { "width": 0.025, "height": 0.015 }},
+    { "position": { "x": 0.98, "y": 0.61 }, "size": { "width": 0.025, "height": 0.015 }}
+  ],
+  "stars": [
+    { "position": { "x": 0.5, "y": 0.5 }, "size": { "width": 0.02, "height": 0.02}},
+    { "position": { "x": 0.6, "y": 0.5 }, "size": { "width": 0.02, "height": 0.02}},
+    { "position": { "x": 0.7, "y": 0.5 }, "size": { "width": 0.02, "height": 0.02}}
+  ]
+}
+  

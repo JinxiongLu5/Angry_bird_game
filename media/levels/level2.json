@@ -1,0 +1,32 @@
+{
+  "birds": [
+    { "type": "normal", "size": { "width": 0.02, "height": 0.02 }},
+    { "type": "speed", "size": { "width": 0.02, "height": 0.02 }},
+    { "type": "explosive", "size": { "width": 0.02, "height": 0.02 }},
+    { "type": "vertical", "size": { "width": 0.02, "height": 0.02 }},
+    { "type": "bigger", "size": { "width": 0.02, "height": 0.02 }}
+
+  ],
+  "pigs": [
+    { "position": { "x": 0.85, "y": 0.79 }, "size": { "width": 0.025, "height": 0.025 }},
+    { "position": { "x": 1.0, "y": 0.79 }, "size": { "width": 0.035, "height": 0.035 }}
+
+  ],
+
+  "woods": [
+    { "position": { "x": 0.8, "y": 0.79 }, "size": { "width": 0.025, "height": 0.025 }},
+    { "position": { "x": 0.9, "y": 0.79 }, "size": { "width": 0.025, "height": 0.025 }},
+    { "position": { "x": 1.0, "y": 0.645 }, "size": { "width": 0.075, "height": 0.01 }},
+    { "position": { "x": 1.0, "y": 0.63 }, "size": { "width": 0.075, "height": 0.01 }},
+    { "position": { "x": 1.05, "y": 0.75 }, "size": { "width": 0.01, "height": 0.08 }},
+    { "position": { "x": 0.95, "y": 0.75 }, "size": { "width": 0.01, "height": 0.08 }}
+    
+  ],
+
+  "stars": [
+    { "position": { "x": 0.8, "y": 0.7 }, "size": { "width": 0.02, "height": 0.02}},
+    { "position": { "x": 0.9, "y": 0.6 }, "size": { "width": 0.02, "height": 0.02}},
+    { "position": { "x": 1.0, "y": 0.4 }, "size": { "width": 0.02, "height": 0.02}}
+  ]
+}
+  
