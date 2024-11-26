@@ -48,10 +48,10 @@ dkms.conf
 # 
 build/
 .vscode/
-CMakeLists.txt
+# CMakeLists.txt
 .DS_Store
 */.DS_Store
 */*/.DS_Store
 */*/*/.DS_Store
-OSX_cmakelist_OSX.txt
+# OSX_cmakelist_OSX.txt
 media/scores/local_data.json

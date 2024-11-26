@@ -1,0 +1,38 @@
+cmake_minimum_required(VERSION 3.16)
+project(AngryBird)
+include_directories("src")
+
+set(CMAKE_CXX_STANDARD 20)
+
+# Set the name of the executable to be produced
+set(EXECUTABLE_NAME AngryBird)
+
+# Add all .cpp - files under src/ directory
+file(GLOB SOURCES src/*.cpp)
+add_executable(${EXECUTABLE_NAME} ${SOURCES})
+
+# SFML
+# run <brew install openal-soft>
+
+include(FetchContent)
+FetchContent_Declare(SFML
+    GIT_REPOSITORY https://github.com/SFML/SFML.git
+    GIT_TAG 2.6.x)
+FetchContent_MakeAvailable(SFML)
+target_link_libraries(${EXECUTABLE_NAME} sfml-graphics sfml-audio sfml-network sfml-system sfml-window)
+
+# Box2d
+# run <brew install box2d>
+# run <brew list box2d | grep lib | grep libbox2d.a> to get the path, excluding "lib/libbox2d.a"
+# replce <the path> with it
+set(BOX2D_PATH "/opt/homebrew/Cellar/box2d/2.4.1" ) # for example: "/opt/homebrew/Cellar/box2d/2.4.1"
+# Include headers
+include_directories(${BOX2D_PATH}/include/)
+# Link the static library
+target_link_libraries(${EXECUTABLE_NAME} ${BOX2D_PATH}/lib/libbox2d.a)
+
+# JSON
+include_directories(${CMAKE_SOURCE_DIR}/libs/JSON)
+
+# HTTP
+include_directories(${CMAKE_SOURCE_DIR}/libs/HTTP)
